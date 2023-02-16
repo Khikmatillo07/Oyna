@@ -119,7 +119,7 @@ class MyWindow(QMainWindow):
     def kurs1(self):
         dic = self.kurs()
         print(dic)
-        bitcoin0=dic['1']
+        bitcoin0 = dic['1']
         Ethereum0 = dic['2']
         BNB0 = dic['3']
         Riple0 = dic['4']
@@ -150,7 +150,7 @@ class MyWindow(QMainWindow):
         Riple1 = round(url["data"][5]["values"]["USD"]["price"], 3)
         EOS1 = round(url["data"][8]["values"]["USD"]["price"], 3)
         Bitcoin_cash1 = round(url["data"][11]["values"]["USD"]["price"], 3)
-        global dc
+        global dc  # salom
         dc = {
             '1': bitcoin1,
             '2': Ethereum1,

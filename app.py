@@ -8,4 +8,4 @@ if __name__ == "__main__":
     win = MyWindow(100, 00, "qwertyu")
     win.setWindowState(QtCore.Qt.WindowState.WindowActive)
     win.show()
-    app.exec()
+    app.exec()#qwertyui
